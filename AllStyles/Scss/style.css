@@ -1,0 +1,73 @@
+.btns {
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 30px;
+  width: 247px;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+}
+.btns:hover {
+  background-color: transparent;
+  border: 2px solid dodgerblue;
+  color: dodgerblue;
+}
+
+.cardsAll {
+  border-radius: 20px;
+}
+
+.homeLayout {
+  width: 1120px;
+  margin: 150px auto;
+}
+
+.sectionLayout {
+  margin: 200px 0;
+}
+
+.cardDisplay {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+@media (max-width: 576px) {
+  .cardDisplay {
+    grid-template-columns: auto;
+  }
+}
+.serviceLayout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.endHeading {
+  margin: 250px 0;
+}
+
+.positioning {
+  border-radius: 50px;
+  height: 400px;
+  position: relative;
+}
+.positioning span {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  top: 75%;
+  right: -35px;
+  color: gray;
+  cursor: pointer;
+}
+
+.reviews {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}/*# sourceMappingURL=style.css.map */

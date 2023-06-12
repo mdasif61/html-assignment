@@ -1,0 +1,19 @@
+@mixin btn(){
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 30px;
+    width: 247px;
+    color:white;
+    font-size: 22px;
+    font-weight: 500;
+    &:hover{
+        background-color: transparent;
+        border: 2px solid dodgerblue;
+        color: dodgerblue;
+    }
+}
+
+@mixin cardsAll(){
+    border-radius: 20px;
+}

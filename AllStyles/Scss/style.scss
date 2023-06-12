@@ -1,0 +1,58 @@
+@import './conponents';
+
+.btns{
+    @include btn()
+}
+.cardsAll{
+    @include cardsAll()
+}
+.homeLayout{
+    width: 1120px;
+    margin: 150px auto;
+}
+.sectionLayout{
+    margin:200px 0;
+}
+.cardDisplay{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:40px;
+}
+@media (max-width:576px) {
+    .cardDisplay{
+        grid-template-columns: auto;
+    }
+}
+
+.serviceLayout{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:30px;
+    
+}
+.endHeading{
+    margin: 250px 0;
+}
+.positioning{
+    border-radius: 50px;
+    height: 400px;
+    position: relative;
+    span{
+        position: absolute;
+        background-color: white;
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        top: 75%;
+        right: -35px;
+        color: gray;
+        cursor: pointer;
+    }
+}
+
+.reviews{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+    margin-top: 30px;
+}
